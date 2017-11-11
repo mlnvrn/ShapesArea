@@ -1,6 +1,7 @@
 package org.itstep;
 
 import org.itstep.model.impl.Circle;
+import org.itstep.model.impl.Rhombus;
 import org.itstep.model.impl.Square;
 import org.itstep.model.impl.Triangle;
 
@@ -24,6 +25,11 @@ public class AppRunner {
 		Square square1 = new Square();
 		square1.setSide(8);
 		square1.printArea();
+		
+		Rhombus rhombus1 = new Rhombus();
+		rhombus1.setHeight(11);
+		rhombus1.setSide(3);
+		rhombus1.printArea();
 
 	}
 
