@@ -3,7 +3,6 @@ package org.itstep.model.impl;
 import org.itstep.model.Shape;
 
 public class Circle implements Shape{
-	
 	private int radius;
 
 	public void printArea() {
@@ -17,8 +16,6 @@ public class Circle implements Shape{
 
 	public void setRadius(int radius) {
 		this.radius = radius;
-	}
-	
-	
+	}	
 
 }
