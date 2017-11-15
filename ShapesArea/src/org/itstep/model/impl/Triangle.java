@@ -5,9 +5,10 @@ import org.itstep.model.Shape;
 public class Triangle implements Shape{
 	private int base;
 	private int height;
+	private double n = 0.5; 
 
 	public void printArea() {
-		System.out.println("Area of this triangle is " + (0.5*base)*height + " sq.m.");
+		System.out.println("Area of this triangle is " + (n*base)*height + " sq.m.");
 	}	
 	
 	public int getBase() {
